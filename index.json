@@ -1,0 +1,27 @@
+{
+	"authors": [
+		{
+			"id": 2029715318,
+			"name": "Cursor",
+			"desc": "Worked on Novel Phoenix",
+			"imageURL": "",
+			"website": ""
+		}
+	],
+	"libraries": [],
+	"scripts": [
+		{
+			"id": 2986023,
+			"name": "Novel Phoenix",
+			"fileName": "NovelPhoenix",
+			"imageURL": "https://raw.githubusercontent.com/mcranford13/shosetsuextentions/cursor/novelphoenix-extension-becf/icons/NovelPhoenix.png",
+			"lang": "en",
+			"ver": "1.0.0",
+			"libVer": "1.0.0",
+			"md5": "b1cb046f908385e4c92c3324616052fb3d73ed10efe6d39cffec2ae90de5177b",
+			"type": "LuaScript"
+		}
+	],
+	"styles": [],
+	"js": []
+}

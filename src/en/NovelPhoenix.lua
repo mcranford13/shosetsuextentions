@@ -223,7 +223,7 @@ return {
     id = 2986023,
     name = "Novel Phoenix",
     baseURL = baseURL,
-    imageURL = baseURL .. "/favicon.ico",
+    imageURL = "https://raw.githubusercontent.com/mcranford13/shosetsuextentions/cursor/novelphoenix-extension-becf/icons/NovelPhoenix.png",
     hasCloudFlare = true,
     hasSearch = true,
     isSearchIncrementing = true,
