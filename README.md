@@ -5,12 +5,18 @@ This repository contains a Shosetsu Lua extension for
 
 ## Repository URL
 
-After this branch is published, add the raw GitHub branch URL to Shosetsu:
+Once this repository is public, add its raw `main` URL to Shosetsu:
 
-`https://raw.githubusercontent.com/mcranford13/shosetsuextentions/cursor/novelphoenix-extension-becf/`
+`https://raw.githubusercontent.com/mcranford13/shosetsuextentions/main/`
 
 Then refresh repositories and install **Novel Phoenix** from the English
 extensions list.
+
+The repository is currently private, so the raw URL cannot yet be consumed by
+Shosetsu without first publishing the repository. For local testing, download
+Shosetsu's extension tester as described in the official extensions repository,
+run it with `--generate-index --watch --host`, and add the displayed local
+server URL to Shosetsu.
 
 ## Development
 

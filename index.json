@@ -14,11 +14,11 @@
 			"id": 2986023,
 			"name": "Novel Phoenix",
 			"fileName": "NovelPhoenix",
-			"imageURL": "https://raw.githubusercontent.com/mcranford13/shosetsuextentions/cursor/novelphoenix-extension-becf/icons/NovelPhoenix.png",
+			"imageURL": "https://www.google.com/s2/favicons?domain=novelphoenix.com&sz=128",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "b1cb046f908385e4c92c3324616052fb3d73ed10efe6d39cffec2ae90de5177b",
+			"md5": "28219bd3142d9a31e78b2788c953a2c1c26313889b6784aac8697bde89a3feee",
 			"type": "LuaScript"
 		}
 	],
