@@ -1,0 +1,27 @@
+{
+	"authors": [
+		{
+			"id": 2029715318,
+			"name": "Cursor",
+			"desc": "Worked on Novel Phoenix",
+			"imageURL": "",
+			"website": ""
+		}
+	],
+	"libraries": [],
+	"scripts": [
+		{
+			"id": 2986023,
+			"name": "Novel Phoenix",
+			"fileName": "NovelPhoenix",
+			"imageURL": "https://www.google.com/s2/favicons?domain=novelphoenix.com&sz=128",
+			"lang": "en",
+			"ver": "1.0.0",
+			"libVer": "1.0.0",
+			"md5": "28219bd3142d9a31e78b2788c953a2c1c26313889b6784aac8697bde89a3feee",
+			"type": "LuaScript"
+		}
+	],
+	"styles": [],
+	"js": []
+}
