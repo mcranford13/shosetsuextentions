@@ -1,29 +1,27 @@
-# Novel Phoenix Shosetsu Extension
+# Shosetsu Extension
 
-This repository contains a Shosetsu Lua extension for
+This repository contain(s) a Shosetsu Lua extension for the following website(s):
+
 [Novel Phoenix](https://novelphoenix.com).
+
+More will be added in the future if/when I encounter the need for them.
 
 ## Repository URL
 
-Once this repository is public, add its raw `main` URL to Shosetsu:
+Installation:
+In Shosetsu, add the following URL to the Repositories under Settings:
 
 `https://raw.githubusercontent.com/mcranford13/shosetsuextentions/main/`
 
-Then refresh repositories and install **Novel Phoenix** from the English
+Then refresh repositories and install a source from the English
 extensions list.
-
-The repository is currently private, so the raw URL cannot yet be consumed by
-Shosetsu without first publishing the repository. For local testing, download
-Shosetsu's extension tester as described in the official extensions repository,
-run it with `--generate-index --watch --host`, and add the displayed local
-server URL to Shosetsu.
 
 ## Development
 
-The extension source is `src/en/NovelPhoenix.lua`. It supports paginated
+The extension source(s) are found in  `src/en/`. They supports paginated
 listings and search, novel metadata, complete paginated chapter lists, and
 HTML chapter reading.
 
-Novel Phoenix currently uses Cloudflare. The extension enables Shosetsu's
+Some source(s) currently use Cloudflare. The extension enables Shosetsu's
 Cloudflare handling, but users may occasionally need to open the source in
 WebView and complete a challenge before retrying.
