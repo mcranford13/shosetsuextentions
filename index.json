@@ -16,9 +16,9 @@
 			"fileName": "NovelPhoenix",
 			"imageURL": "https://www.google.com/s2/favicons?domain=novelphoenix.com&sz=128",
 			"lang": "en",
-			"ver": "1.0.0",
+			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "28219bd3142d9a31e78b2788c953a2c1c26313889b6784aac8697bde89a3feee",
+			"md5": "9598fa731eec8c514dc6fcc06009ac6bbf15cce9b0ba4c1958bab6b3a1888d6e",
 			"type": "LuaScript"
 		}
 	],
