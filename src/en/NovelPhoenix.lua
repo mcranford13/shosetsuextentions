@@ -1,4 +1,4 @@
--- {"id":2986023,"ver":"1.0.0","libVer":"1.0.0","author":"Cursor"}
+-- {"id":2986023,"ver":"1.0.1","libVer":"1.0.0","author":"Cursor"}
 
 local baseURL = "https://novelphoenix.com"
 
@@ -138,13 +138,30 @@ local function appendChapters(chapters, chapterDocument)
     end
 end
 
+local function pageNumber(url)
+    url = tostring(url or "")
+    return tonumber(url:match("[?&]page=(%d+)") or url:match("page%-(%d+)"))
+end
+
 local function findLastChapterPage(document)
     local maxPage = 1
-    local links = document:select("ul.pagination a[href], .pagination-container a[href]")
-    for i = 0, links:size() - 1 do
-        local href = links:get(i):attr("href") or ""
-        local page = tonumber(href:match("[?&]page=(%d+)") or href:match("page%-(%d+)"))
+    local function consider(url)
+        local page = pageNumber(url)
         if page and page > maxPage then maxPage = page end
+    end
+
+    -- Older chapter indexes used ul.pagination. The current index uses
+    -- .chapter-range-pager, whose last link and select options carry ?page=.
+    local links = document:select(
+        "ul.pagination a[href], .pagination-container a[href], .chapter-range-pager a[href]"
+    )
+    for i = 0, links:size() - 1 do
+        consider(links:get(i):attr("href"))
+    end
+
+    local options = document:select(".chapter-range-pager option")
+    for i = 0, options:size() - 1 do
+        consider(options:get(i):attr("value"))
     end
     return maxPage
 end
